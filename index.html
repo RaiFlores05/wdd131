@@ -2,10 +2,72 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Raí Flores</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Raí Martín Flores Marcenaro - Home page landing for web development resources and student profile.">
+    <meta name="author" content="Raí Flores">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
-    <h1>WDD 131 - Blazzard</h1>
+    <header>
+
+        <span id="course-title">WDD 131 - Dynamic Web Fundamentals</span>
+
+        <nav>
+	        <ul class="navigation">
+		        <li><a href="#" title="Linkedln">Linkedln</a></li>
+		        <li><a href="#" title="Canvas">Canvas</a></li>
+		        <li><a href="#" title="Scripture">Scripture</a></li>
+		        <li><a href="#" title="Final Project">Final Project</a></li>
+	        </ul>
+        </nav>
+
+    </header>
+    
+    <main>
+        <h1>Raí Flores</h1>
+
+        <section class="card">
+            
+            <h2>About Me</h2>
+            <div class="bioDiv">
+                <p class="p1">My name is Raí Flores. I was born in Peru in the city called Lima. I am currently studying Software Development in BYU-Idaho. My family is all for me and I love them very much. I love to play sports and I love to make music especially piano.</p>
+                <img src="images/RaiFlores_ProfilePicture.png" alt="Raí Flores" >
+            </div>
+            
+
+            <h3>Lima, Peru</h3>
+            <div class="locationDiv">
+                <img src="images/bandera.png" alt="Lima, Peru">
+                <p>Peru is located in South America.Is is one of the most beautiful countries in the world and is very popular by the tipical dishes that Peru have it. Also Machu Picchu whic is called one of the Seven Wonders of the World, is located in the Peruvian Andes Mountains.</p>
+            </div>
+            
+        </section>
+
+        <section class="card">
+            <h3>Web Dev Resources</h3>
+            <nav class="links">
+	            <ul class="">
+		            <li><a href="#" title="Dev.toCommunity">Dev.to Community</a></li>
+		            <li><a href="#" title="Smashing Magazines">Smashing Magazines</a></li>
+		            <li><a href="#" title="CSS Tricks">CSS Tricks</a></li>
+		            <li><a href="#" title="W3 Schools">W3 Schools</a></li>
+                    <li><a href="#" title="Udemy">Udemy</a></li>
+                    <li><a href="#" title="Lorem Picsum Image Placeholder">Lorem Picsum Image Placeholder</a></li>
+	            </ul>
+            </nav>
+        </section>
+    </main>
+
+    <footer>
+        
+    <p>&copy;<span id="currentyear"></span> | Raí Flores | Peru</p>
+    <p id="lastModified"></p>
+    
+        
+
+    </footer>
+
 </body>
 </html>

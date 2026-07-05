@@ -1,0 +1,141 @@
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto auto 1fr auto;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #06188d; 
+    grid-column: 1 / -1;    
+    width: 100%;
+}
+
+#course-title {
+    
+    display: block;       
+    font-size: 1.5rem;
+    text-align: center;   
+    font-weight: 700;
+    color: #ffffff;
+    padding: 15px 20px;
+}
+
+.navigation{
+    list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #000000;
+	align-items: center;
+}
+
+.navigation li {
+    padding: 10px;
+	flex: 1 1 auto; 
+}
+.navigation a {
+	font-weight: 700;
+	display: block;
+	color: #eee;
+	padding: 0.2rem;
+	text-decoration: none;
+	text-align: center;
+}
+
+.navigation a:hover {
+	text-decoration: underline;
+	text-decoration-color: yellow;
+    background-color: #324cf8;
+}
+
+main h1 {
+    grid-column: 1 / -1;
+    text-align: center;
+    font-size: 30px;   
+    font-weight: normal; 
+    color: #000000;
+    margin: 0;
+    padding: 0px;
+}
+
+.card{
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+main{
+    max-width: 1100px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 2.3fr 1fr;
+    gap: 40px;
+    align-content: start;
+}
+
+.card h2 {
+    text-align: center;
+    color: white;
+    background-color: #26c4cd;
+    padding:10px;
+    margin: -20px -20px 20px -20px;
+    border-radius: 20px 20px 0 0;
+}
+
+.bioDiv{
+    display: grid;
+    grid-template-columns: 1fr 200px; 
+    gap: 15px;
+    align-items: start;
+    margin-bottom: 15px;
+}
+
+
+
+.locationDiv{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 15px;
+    align-items: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card ul {
+    list-style-type: disc; 
+    padding-left: 20px;      
+    text-align: left;
+    margin: 40px 20px;        
+}
+
+.card ul li {
+    margin-bottom: 8px;      
+}
+
+footer{
+    background-color: #06188d;
+    
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 5px 0;
+    color: white;
+}
