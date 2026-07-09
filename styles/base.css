@@ -2,9 +2,10 @@
 	margin: 0;
 	padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', Arial, sans-serif;
 }
 body {
-    font-family: Arial, sans-serif;
+    
     display: grid;
     grid-template-columns: 1fr; 
     grid-template-rows: auto auto 1fr auto;
@@ -87,7 +88,7 @@ main{
 .card h2 {
     text-align: center;
     color: white;
-    background-color: #26c4cd;
+    background-color: #6a717c;
     padding:10px;
     margin: -20px -20px 20px -20px;
     border-radius: 20px 20px 0 0;
