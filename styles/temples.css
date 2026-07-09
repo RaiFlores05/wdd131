@@ -13,7 +13,7 @@ body{
 }
 header{
     display: block;
-    background-color: #1ba426;
+    background-color: #147a1c;
     color: white;
     grid-template-columns: 1fr auto;
     padding: 10px 10px;
@@ -40,6 +40,11 @@ header{
 	content: "X";
 }
 
+nav{
+    display: flex;
+    justify-content: center;
+}
+
 .navigation {
 	display: none;
 	flex-direction: column;
@@ -51,7 +56,7 @@ header{
     top: 100%;
     left: 0;
     width: 100%;
-    background-color: #1ba426;
+    background-color: #147a1c;
     z-index: 1000;
     padding-bottom: 10px;
 }
@@ -90,7 +95,7 @@ main{
     padding-bottom: 20px;
 }
 
-main h1 {
+main h2 {
     text-align: center;
     padding-top: 40px;
     grid-column: 1/-1;
@@ -115,7 +120,7 @@ figure img:hover{
     box-shadow: 0 0 50px #333;  
 }
 footer{
-    background-color: #1ba426;
+    background-color: #147a1c;
     
     text-align: center;
     padding: 20px;
