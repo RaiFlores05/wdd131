@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Country Page</title>
+    <meta name="description" content="WDD 131 - Country Page project showcasing the country where I am from.">
+    <meta name="author" content="Raí Flores">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>PERU</h1>
+    </header>
+
+    <main>
+        <div class="hero">
+        <picture >
+            <source media="(min-width:600px)" srcset="images/peruDesk.webp">
+            <img src="images/peruPhone.webp" alt="" width="250" height="500">
+        </picture>
+        
+        <section class="data">
+            <h2>Data</h2>
+            <dl class="info">
+                <dt>Area:</dt>
+                <dd>1,285,216 sq km</dd>
+
+                <dt>Population:</dt>
+                <dd>34,352,719</dd>
+
+                <dt>Capital:</dt>
+                <dd>Lima</dd>
+
+                <dt>Languages:</dt>
+                <dd>Spanish, Quechua</dd>
+
+                <dt>Currency:</dt>
+                <dd>Sol (PEN)</dd>
+
+                <dt>Time Zone:</dt>
+                <dd>UTC-5</dd>
+
+                <dt>Calling Code:</dt>
+                <dd>+51</dd>
+
+                <dt>Internet TLD:</dt>
+                <dd>.pe</dd>
+            </dl>
+        </section>
+
+        <section class="weather">
+            <h2>Weather</h2>
+            <img src="images/weatherPeru.svg" alt="Weather Icon" >
+            <dl class="info">
+                <dt>Temperature:</dt>
+                <dd>10 °C</dd>
+
+                <dt>Conditions:</dt>
+                <dd>Partly Cloudy</dd>
+
+                <dt>Wind:</dt>
+                <dd>5 km/h</dd>
+
+                <dt>Wind Chill:</dt>
+                <dd id="wind-chill"></dd>
+            </dl>
+        </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="currentyear"></span> | Raí Flores | Peru</p>
+    <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
