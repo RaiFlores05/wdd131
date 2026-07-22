@@ -1,0 +1,50 @@
+@media  (min-width: 37.5em){
+
+    header{
+        display: flex;
+		align-items: center;
+		justify-content: space-between;
+        
+    }
+
+    .res-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 35px 25px;
+        max-width: 1200px;
+        margin: 0 auto;
+        width: 95%;
+        
+    }
+
+    #menu {
+		display: none; 
+	}
+
+	.navigation {
+        display: flex;
+		flex-direction: row;
+        position: static;
+        width: auto;
+	}
+
+	.navigation a {
+		display: block;
+		flex: 1 1 100%;
+	}
+	
+	.stuff {
+		margin: 1rem auto;
+	}
+
+    
+}
+
+@media (min-width: 60em) {
+    
+    .res-grid {
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+}
