@@ -14,7 +14,7 @@ body{
 header{
     display: block;
     background-color: #147a1c;
-    color: white;
+    color: #ffffff;
     grid-template-columns: 1fr auto;
     padding: 10px 10px;
     position: relative;
@@ -26,7 +26,7 @@ header{
 	font-size: 1.5rem;
 	border: 0;
 	background: none;
-	color:white ;
+	color:#ffffff ;
  	position: absolute ;
 	top: 1rem;
 	right: 1rem;
@@ -124,7 +124,7 @@ figure img:hover{
 }
 
 .res-grid section{
-        background-color: rgb(178, 223, 178);
+        background-color: #b2dfb2;
         padding:  20px;
         border-radius: 8px;
         text-align: center;
@@ -162,7 +162,7 @@ footer{
 
 footer p {
     margin: 5px 0;
-    color: white;
+    color: #ffffff;
 }
 
 .label {
